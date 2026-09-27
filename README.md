@@ -21,13 +21,12 @@ Automatically transfers a Discord vanity URL from one server to another the mome
 
 ### Requirements
 - [Node.js](https://nodejs.org/) (v18+ recommended)
-- 2FA enabled on your Discord account
 
 ### Steps
 
 1. **Clone / download:**
    ```bash
-   git clone https://github.com/username/discord-auto-swapper.git
+   git clone https://github.com/alpbabaz/discord-auto-swapper.git
    cd discord-auto-swapper
    ```
 
@@ -42,7 +41,7 @@ Automatically transfers a Discord vanity URL from one server to another the mome
    | `channelId` | Channel ID for log messages |
    | `REQ2_COUNT` | Number of parallel PATCH requests (1 recommended) |
 
-   > ⚠️ **Important:** Your account must be in **both servers** and have **Manage Server** permission.
+   > ⚠️ **Important:** Your account must be in **both servers** and have **executive** permission.
 
 3. **Run:**
    - Windows: double-click `start.bat`
@@ -109,13 +108,13 @@ Bir Discord vanity URL'sini, **yetki geldiği an** bir sunucudan diğerine otoma
 
 ### Gereksinimler
 - [Node.js](https://nodejs.org/) (v18+ önerilir)
-- Hesabınızda **2FA** açık olmalı
+- Hesabınızda **2FA** açık olmamalı
 
 ### Adımlar
 
 1. **Klonla / indir:**
    ```bash
-   git clone https://github.com/kullanici/discord-auto-swapper.git
+   git clone https://github.com/alpbabaz/discord-auto-swapper.git
    cd discord-auto-swapper
    ```
 
@@ -130,7 +129,7 @@ Bir Discord vanity URL'sini, **yetki geldiği an** bir sunucudan diğerine otoma
    | `channelId` | Log mesajlarının gideceği kanal ID'si |
    | `REQ2_COUNT` | Paralel PATCH istek sayısı (1 önerilir) |
 
-   > ⚠️ **Önemli:** Hesabınız **iki sunucuda da** olmalı ve **Sunucuyu Yönet** yetkisine sahip olmalı.
+   > ⚠️ **Önemli:** Hesabınız **iki sunucuda da** olmalı ve **Yönetici** yetkisine sahip olmalı.
 
 3. **Çalıştır:**
    - Windows: `start.bat` çift tıkla
